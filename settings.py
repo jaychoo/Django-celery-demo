@@ -121,6 +121,7 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'djcelery',
     'celery_demo.jobs',
+    'celery_demo.news',
 )
 
 # A sample logging configuration. The only tangible logging
