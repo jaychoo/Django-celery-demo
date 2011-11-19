@@ -1,3 +1,8 @@
+Simple django-celery app
+
+- There's one periodic task in jobs app, it will add datetime.now() timestamp (Current class) 
+
+
 # RabbitMQ settings
 sudo rabbitmqctl add_user rb rb
 sudo rabbitmqctl add_vhost rb
