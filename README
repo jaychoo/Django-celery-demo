@@ -1,0 +1,9 @@
+# RabbitMQ settings
+sudo rabbitmqctl add_user rb rb
+sudo rabbitmqctl add_vhost rb
+sudo rabbitmqctl set_permissions -p rb rb ".*" ".*" ".*"
+
+# Celery
+python manage.py runserver 0.0.0.0:8888
+python manage.py celeryd --verbosity=2 --loglevel=DEBUG
+python manage.py celerybeat --verbosity=2 --loglevel=DEBUG
