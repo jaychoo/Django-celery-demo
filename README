@@ -17,3 +17,8 @@ sudo rabbitmq-server
 python manage.py runserver 0.0.0.0:8888
 python manage.py celeryd --verbosity=2 --loglevel=DEBUG
 python manage.py celerybeat --verbosity=2 --loglevel=DEBUG
+
+
+# Todo
+
+Add javascript spakr lines
