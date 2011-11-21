@@ -21,4 +21,4 @@ python manage.py celerybeat --verbosity=2 --loglevel=DEBUG
 
 # Todo
 
-Add javascript spakr lines
+Add javascript spark lines (http://omnipotent.net/jquery.sparkline/)
